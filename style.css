@@ -12,6 +12,19 @@
     font-style: italic;
 }
 
+.purple{
+    color: purple;
+    font-family: cursive;
+    font-style: oblique;
+}
+
+.yellow{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: inherit;
+    font-size: 20px;
+}
+
 body{
     background-color: rgb(12, 236, 153);
     text-align: center;
@@ -23,8 +36,8 @@ body{
     border: 5px solid;
     text-align: center;
     text-transform: uppercase;
-    text-decoration: line-through;
-    font-weight: 100;
+    /* text-decoration: line-through; */
+    font-weight: 100 ;
     padding: 100px;
     margin: 100px;
 
@@ -54,7 +67,7 @@ body{
 
 .changing-w{
     font-size: 30px;
-    color: blanchedalmond;
+    color: rgb(158, 124, 74);
     text-transform: uppercase;
 }
 
@@ -101,11 +114,11 @@ body{
 
 .grid-item{
     background-color: bisque;
-    border: 1px #1dee7b;
+    border: 2px #1dee7b;
     padding: 20px;
     font-size: 30px;
     text-align: center;
-    * margin: 10px; */
+    margin: 10px; 
 }
 
 .item1-row{
