@@ -1,0 +1,119 @@
+.red{
+    color: yellowgreen;
+}
+
+.blue{
+    color: #ee1d1d;
+}
+
+.green{
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+body{
+    background-color: rgb(12, 236, 153);
+    text-align: center;
+}
+
+.para{
+    color: gold;
+    background-color: #ee1d1d;
+    border: 5px solid;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    font-weight: 100;
+    padding: 100px;
+    margin: 100px;
+
+}
+
+.yt{
+    text-decoration: none;
+    color:#ee1d1d;
+}
+.bt{
+    color: #ee1d1d;
+    background-color: blueviolet;
+}
+.playing-with-letter{
+    letter-spacing: 50px;
+    word-spacing: 50px;
+    text-align: center;
+    /* text-align: left; */
+    /* text-align: right; */
+}
+
+.changing-h{
+    font-size: 30px;
+    color: blanchedalmond;
+    text-transform: uppercase;
+}
+
+.changing-w{
+    font-size: 30px;
+    color: blanchedalmond;
+    text-transform: uppercase;
+}
+
+.bg-color{
+    background-color: aqua;
+}
+
+.first{
+    opacity: 0.2;
+}
+
+.second{
+    opacity: 0.4;
+}
+
+.third{
+    opacity: 0.8;
+}
+
+#bg-1{
+    background-image: url(img/images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    height: 100vh;
+    width: 100vw; 
+    color: blueviolet;
+    font-size: 50px;
+}
+
+.border-property{
+    visibility: hidden;
+     display: none; 
+}
+
+.grid-container{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto auto;
+    background-color: rgb(101, 29, 168);
+    padding: 10px;
+    margin: 20px;
+}
+
+.grid-item{
+    background-color: bisque;
+    border: 1px #1dee7b;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    * margin: 10px; */
+}
+
+.item1-row{
+     /* grid-row-start: 1;  */
+     /* grid-row-end: 4;  */
+}
+
+.item1-col{
+     /* grid-column-start:2;  */
+    /* grid-column-end: 5; */
+}
